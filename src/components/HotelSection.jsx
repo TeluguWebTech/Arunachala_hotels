@@ -240,9 +240,9 @@ const HotelSection = () => {
           className="flex-1 min-w-[150px] p-2 border border-gray-300 rounded-md bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           <option value="">Budget</option>
-          <option value="low">Low (≤ ₹1000)</option>
-          <option value="medium">Medium (₹1000 - ₹3000)</option>
-          <option value="high">High (≥ ₹3000)</option>
+          <option value="low">Less than ₹1000</option>
+          <option value="medium">Between ₹1000 - ₹3000</option>
+          <option value="high">More than ₹3000</option>
         </select>
 
         {/* Price Less Than Filter */}
